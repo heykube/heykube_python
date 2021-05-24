@@ -24,7 +24,7 @@ pip3 install -e .
 
 In order to BTLE scan to work without sudo, you need to run the following:
 
-````
+```
 # clean up BTLE scan with sudo
 sudo setcap ‘cap_net_raw,cap_net_admin+eip’ /usr/bin/hcitool
 
