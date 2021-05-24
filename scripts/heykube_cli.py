@@ -354,12 +354,10 @@ usage: play_sound [0-7]
         if self.check_connected():
             try:
                 sound_index = int(args)
-                print('Sound INdex = {}'.format(sound_index))
                 if sound_index >= 0 and sound_index <= 7:
-                    print('Good sound')
                     self.cube.play_sound(sound_index)
-                #else:
-                #    print('Error - pick a sound index between 0 and 7')
+                else:
+                    print('Error - pick a sound index between 0 and 7')
             except Exception as inst:
                 print('Error - pick a sound index between 0 and 7')
 
