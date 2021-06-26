@@ -37,7 +37,7 @@ sudo getcap /usr/bin/hcitool
 
 ### Run the Command line interface (CLI)
 ```
-cd heykube-python/scripts
+cd heykube_python/scripts
 ./heykube_cli.py
 ```
 
